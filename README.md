@@ -36,4 +36,7 @@ The project involves:
 1. Clone this repository.
 2. Install required packages:
    ```bash
-   pip install -r requirements.txt
+   !pip install numpy
+   !pip install pandas
+   !pip install seaborn
+   !pip install scikit-learn
