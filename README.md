@@ -1,28 +1,39 @@
-# NewsGuard_AI
-📰 NewsGuard AI
-NewsGuard AI is a machine learning project designed to detect and classify fake and real news articles. The project uses a supervised learning approach by training on labeled datasets of real and fake news headlines and article content. It includes data preprocessing, model training, and evaluation using popular libraries like scikit-learn, pandas, and matplotlib.
+# 📰 NewsGuard AI - Fake News Detection with Machine Learning
 
-🔍 Features
-Loads and processes real and fake news datasets.
+**NewsGuard AI** is a machine learning-based project designed to classify news articles as **Fake** or **Real** using natural language processing and traditional machine learning algorithms.
 
-Applies data labeling for binary classification.
+## 📌 Project Overview
 
-Performs text preprocessing and feature extraction using TfidfVectorizer.
+With the rise of misinformation, it's crucial to have automated systems that help detect fake news. This project processes real and fake news datasets, cleans and prepares the text, and then trains models to accurately classify articles.
 
-Splits the data into training and testing sets.
+## 📂 Dataset
 
-Trains classification models and evaluates them using accuracy scores and confusion matrices.
+The project uses two CSV files:
+- `Fake.csv`: Contains fake news articles.
+- `True.csv`: Contains real news articles.
 
-Includes manual testing on a few samples for validation.
+Each dataset includes the title, text, subject, and date.
 
-🛠️ Tech Stack
-Python
+## 🛠️ Technologies Used
 
-Pandas, NumPy
+- Python
+- pandas, numpy
+- matplotlib, seaborn
+- scikit-learn (for ML models and metrics)
 
-Scikit-learn
+## 📊 ML Techniques
 
-Seaborn, Matplotlib
+The project involves:
+- Text preprocessing (removing punctuation, lowercasing, etc.)
+- Data labeling and merging
+- Train-test split
+- Feature extraction using TF-IDF
+- Model training (e.g., Logistic Regression)
+- Evaluation with accuracy score and classification report
 
-📁 Dataset Used
-Fake.csv and True.csv (commonly used for fake news detection projects)
+## 🧪 How to Run
+
+1. Clone this repository.
+2. Install required packages:
+   ```bash
+   pip install -r requirements.txt
